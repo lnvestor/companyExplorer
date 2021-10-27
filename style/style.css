@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap');
+body {
+
+    background-color: rgb(18, 24, 42);
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-weight:bolder;
+}
+
+p {
+
+    color: rgba(255, 217, 0, 0.842);
+}
+.container {
+
+    display: flex;
+    padding:1rem;
+    border:3px solid white;
+    align-items:center;
+    justify-content:center;
+}
+
+.container div {
+
+    padding: 3rem;
+}
+
+.role {
+
+line-height:2rem;
+
+}
+
+.company {
+
+    line-height: 2.5rem;
+}
+
+.salary {
+
+    line-height: 2rem;
+}
+
+
+
+@media only screen and (max-width: 800px) {
+
+body {
+
+    font-size:16px;
+    font-weight: bold;
+}
+.container {
+
+    display:block;
+    text-align: center;
+}
+.gg-user{
+margin: 6px;
+}
